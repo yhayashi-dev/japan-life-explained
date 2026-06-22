@@ -1,7 +1,7 @@
 外国人向けに、日本で暮らす・働くときの手続きを英語で説明するサイトを作りました。
 
 Japan Life Explained
-https://japan-life-explained.netlify.app
+https://yhayashi-dev.github.io/japan-life-explained
 
 英語の細かい文法より、次の点を見てもらえると助かります。
 

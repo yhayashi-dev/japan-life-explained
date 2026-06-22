@@ -1,7 +1,7 @@
 Japan Life Explained - 8 Full Guides Final v1
 
 Site URL:
-https://japan-life-explained.netlify.app
+https://yhayashi-dev.github.io/japan-life-explained
 
 This ZIP is intended for the existing Netlify project:
 japan-life-explained
@@ -31,7 +31,7 @@ Do not create a new Netlify project.
 Upload this ZIP to the existing japan-life-explained project Deploys page.
 
 After upload:
-1. Open https://japan-life-explained.netlify.app
-2. Open https://japan-life-explained.netlify.app/sitemap.xml
+1. Open https://yhayashi-dev.github.io/japan-life-explained
+2. Open https://yhayashi-dev.github.io/japan-life-explained/sitemap.xml
 3. Confirm it starts with XML tags.
 4. Resubmit sitemap.xml in Google Search Console.

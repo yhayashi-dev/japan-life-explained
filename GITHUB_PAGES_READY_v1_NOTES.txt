@@ -1,0 +1,18 @@
+GitHub Pages ready version.
+
+Live URL:
+https://yhayashi-dev.github.io/japan-life-explained/
+
+Changed canonical/meta/sitemap references from:
+https://japan-life-explained.netlify.app
+to:
+https://yhayashi-dev.github.io/japan-life-explained
+
+Upload the contents of this folder to:
+yhayashi-dev/japan-life-explained
+main branch, repository root.
+
+Important:
+- Upload folder contents, not the zip file itself.
+- Keep index.html at the repository root.
+- GitHub Pages source should be main / root.

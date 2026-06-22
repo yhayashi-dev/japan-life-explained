@@ -11,7 +11,7 @@
 1. Netlify確認
 - 最新Deployが緑
 - Published と表示
-- https://japan-life-explained.netlify.app を開く
+- https://yhayashi-dev.github.io/japan-life-explained を開く
 
 2. トップページ確認
 - Start here が見える
@@ -36,7 +36,7 @@
 - 必要ならテスト回答
 
 5. sitemap確認
-- https://japan-life-explained.netlify.app/sitemap.xml を開く
+- https://yhayashi-dev.github.io/japan-life-explained/sitemap.xml を開く
 - 先頭に <?xml が見える
 - <urlset が見える
 

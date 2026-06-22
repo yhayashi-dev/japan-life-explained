@@ -11,4 +11,4 @@ Added:
 - complete sitemap based on current HTML files
 
 Next:
-Register https://japan-life-explained.netlify.app/ in Google Search Console and submit sitemap.xml.
+Register https://yhayashi-dev.github.io/japan-life-explained/ in Google Search Console and submit sitemap.xml.

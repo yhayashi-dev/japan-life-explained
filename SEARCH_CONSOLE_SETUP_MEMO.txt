@@ -1,10 +1,10 @@
 # Google Search Console Setup Memo
 
 Site URL:
-https://japan-life-explained.netlify.app/
+https://yhayashi-dev.github.io/japan-life-explained/
 
 Sitemap:
-https://japan-life-explained.netlify.app/sitemap.xml
+https://yhayashi-dev.github.io/japan-life-explained/sitemap.xml
 
 Recommended property type:
 URL prefix
@@ -15,7 +15,7 @@ HTML file upload
 Steps:
 1. Open Google Search Console.
 2. Add property as URL prefix.
-3. Enter https://japan-life-explained.netlify.app/
+3. Enter https://yhayashi-dev.github.io/japan-life-explained/
 4. Download the HTML verification file.
 5. Put that file in the root of the site folder.
 6. Re-upload the site to Netlify.

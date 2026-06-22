@@ -3,7 +3,7 @@
 The Netlify project name has been fixed.
 
 Final public preview URL:
-https://japan-life-explained.netlify.app/
+https://yhayashi-dev.github.io/japan-life-explained/
 
 Updated:
 - Homepage

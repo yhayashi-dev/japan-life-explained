@@ -1,7 +1,7 @@
 外国人向けの日本生活ガイドサイトを仮公開しました。
 
 Japan Life Explained
-https://japan-life-explained.netlify.app/
+https://yhayashi-dev.github.io/japan-life-explained/
 
 日本で働く・暮らすときに分かりにくい制度や手続きを、英語でやさしく説明するサイトです。
 図解、日本語＋ローマ字＋英語の用語表も入れています。

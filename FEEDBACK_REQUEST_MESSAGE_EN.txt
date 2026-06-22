@@ -1,7 +1,7 @@
 Could you take a quick look at this site?
 
 Japan Life Explained
-https://japan-life-explained.netlify.app
+https://yhayashi-dev.github.io/japan-life-explained
 
 It is a simple English guide site for people working or living in Japan.
 

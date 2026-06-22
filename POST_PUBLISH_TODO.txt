@@ -1,7 +1,7 @@
 # Post-publish TODO
 
 Live URL:
-https://japan-life-explained.netlify.app/
+https://yhayashi-dev.github.io/japan-life-explained/
 
 ## Check
 [ ] Homepage opens

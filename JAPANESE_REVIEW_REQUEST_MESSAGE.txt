@@ -2,7 +2,7 @@
 外国人向けの日本生活ガイドサイトを仮公開しました。
 
 Japan Life Explained
-https://japan-life-explained.netlify.app/
+https://yhayashi-dev.github.io/japan-life-explained/
 
 見てほしいポイントは英語の正しさではなく、次の点です。
 

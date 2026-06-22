@@ -1,7 +1,7 @@
 I made a simple English guide site for people working or living in Japan.
 
 Japan Life Explained
-https://japan-life-explained.netlify.app
+https://yhayashi-dev.github.io/japan-life-explained
 
 Current guides include:
 - Take-home pay and payslips

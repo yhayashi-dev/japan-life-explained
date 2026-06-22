@@ -3,7 +3,7 @@ Hi,
 I made a small guide site for people working or living in Japan.
 
 Japan Life Explained
-https://japan-life-explained.netlify.app
+https://yhayashi-dev.github.io/japan-life-explained
 
 It explains practical topics such as salary, payslips, resident tax, health insurance, clinics, address registration, move-in costs, and the bank/phone setup loop.
 

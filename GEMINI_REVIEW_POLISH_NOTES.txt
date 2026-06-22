@@ -7,7 +7,7 @@ Updated:
 - Request / Coming soon area visually separated
 - Request page changed to "Feedback coming soon"
 - Google Form replacement point prepared
-- Site URL kept fixed at https://japan-life-explained.netlify.app/
+- Site URL kept fixed at https://yhayashi-dev.github.io/japan-life-explained/
 
 Upload this ZIP to the existing japan-life-explained Netlify project.
 Do not create a new project.

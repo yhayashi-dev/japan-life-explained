@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://japan-life-explained.netlify.app/sitemap.xml
+Sitemap: https://yhayashi-dev.github.io/japan-life-explained/sitemap.xml

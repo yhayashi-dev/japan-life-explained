@@ -13,6 +13,6 @@ Also added Netlify _headers so /sitemap.xml is served as application/xml.
 
 Upload this ZIP to the existing Netlify project.
 Then open:
-https://japan-life-explained.netlify.app/sitemap.xml
+https://yhayashi-dev.github.io/japan-life-explained/sitemap.xml
 
 It should show XML tags, not only plain URL text.

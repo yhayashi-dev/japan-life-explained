@@ -1,7 +1,7 @@
 # 今回のアップロード先
 
 固定URL：
-https://japan-life-explained.netlify.app/
+https://yhayashi-dev.github.io/japan-life-explained/
 
 これからは新しいサイトを作らず、既存の
 

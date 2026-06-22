@@ -2,7 +2,7 @@
 見た目だけ確認してもらえますか？
 
 Japan Life Explained
-https://japan-life-explained.netlify.app/japanese-review
+https://yhayashi-dev.github.io/japan-life-explained/japanese-review
 
 見てほしいのは、
 ・怪しいサイトに見えないか
