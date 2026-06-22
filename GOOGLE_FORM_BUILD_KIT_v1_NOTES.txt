@@ -1,0 +1,1 @@
+Added Google Form build guide and copy-paste kit. Use these to manually create the Google Form, then paste its public URL into request-topic.html later.

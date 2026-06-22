@@ -1,0 +1,80 @@
+COPY-PASTE KIT FOR GOOGLE FORMS
+
+FORM TITLE
+Japan Life Explained - Feedback and Topic Request
+
+FORM DESCRIPTION
+Thank you for helping improve Japan Life Explained.
+
+Please do not include private personal information such as:
+- full address
+- passport number
+- Residence Card number
+- My Number
+- bank account number
+- medical details
+- employer confidential information
+
+QUESTION 1
+Which guide did you read?
+Type: Short answer
+Required: No
+Description: Example: Resident tax, Payslip, Clinic, Move-in costs
+
+QUESTION 2
+Was the guide easy to understand?
+Type: Multiple choice
+Required: No
+Choices:
+Very easy
+Mostly easy
+A little confusing
+Very confusing
+I did not read a guide yet
+
+QUESTION 3
+Which part was confusing?
+Type: Paragraph
+Required: No
+
+QUESTION 4
+Did the Japanese words and romaji help?
+Type: Multiple choice
+Required: No
+Choices:
+Yes, very helpful
+Somewhat helpful
+Not very helpful
+I did not use them
+
+QUESTION 5
+What topic should be added next?
+Type: Paragraph
+Required: No
+Description: Example: garbage rules, guarantor company, My Number card, bank account, phone contract, move-out costs
+
+QUESTION 6
+What is your situation?
+Type: Multiple choice
+Required: No
+Choices:
+Living in Japan
+Planning to move to Japan
+Working in Japan
+Studying in Japan
+Helping someone in Japan
+Other
+
+QUESTION 7
+Are there Japanese words, forms, notices, or documents you want explained?
+Type: Paragraph
+Required: No
+Description: Do not include private personal information.
+
+QUESTION 8
+Any other feedback?
+Type: Paragraph
+Required: No
+
+CONFIRMATION MESSAGE
+Thank you for your feedback. Your response will help improve Japan Life Explained.

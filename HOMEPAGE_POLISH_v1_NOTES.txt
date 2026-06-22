@@ -1,0 +1,12 @@
+Homepage polish v1
+
+Changed:
+- Rebuilt homepage for clearer navigation
+- Added Start here section
+- Added user-situation cards
+- Grouped articles by category
+- Highlighted strongest articles
+- Added trust / explanation strip
+- Kept fixed site URL and valid sitemap
+
+Upload only when Netlify deploys are no longer skipped.

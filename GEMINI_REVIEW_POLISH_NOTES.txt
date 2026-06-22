@@ -1,0 +1,13 @@
+# Gemini Review Polish v1
+
+Applied changes based on the Gemini review.
+
+Updated:
+- Article/card hover effect
+- Request / Coming soon area visually separated
+- Request page changed to "Feedback coming soon"
+- Google Form replacement point prepared
+- Site URL kept fixed at https://japan-life-explained.netlify.app/
+
+Upload this ZIP to the existing japan-life-explained Netlify project.
+Do not create a new project.

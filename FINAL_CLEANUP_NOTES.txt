@@ -1,0 +1,12 @@
+# Final Cleanup v1
+
+This version removes remaining internal/prototype wording from the public site.
+
+Fixed:
+- Removed old references to launch checklist
+- Removed old draft-page wording
+- Reworded Request page as a public coming-soon page
+- Simplified footer/version wording
+- Kept the public scope at 8 guides
+
+Upload this ZIP to Netlify to replace the current public site.

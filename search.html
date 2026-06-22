@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Search Japan Life Explained guides by keyword.">
+<link rel="canonical" href="https://japan-life-explained.netlify.app/search.html">
+<title>Search | Japan Life Explained</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+<nav class="nav">
+<a class="brand" href="index.html"><span class="logo">🐾</span><span>Japan Life Explained</span></a>
+<div class="navlinks">
+<a href="about.html">About</a>
+<a href="faq.html">FAQ</a>
+<a href="index.html#articles">Articles</a>
+<a href="search.html">Search</a>
+<a href="request-topic.html">Request a topic</a>
+</div>
+</nav>
+</header>
+
+<main class="article-page">
+<article class="article">
+<span class="badge">Search</span>
+<h1>Search the guides</h1>
+<p class="summary">Search the current Japan Life Explained guides by keyword. Try words like tax, payslip, clinic, insurance, rent, address, bank, phone, guarantor, or Japanese terms like 住民税.</p>
+
+<section class="quick-answer search-panel">
+<label for="site-search"><b>Keyword</b></label>
+<input id="site-search" class="search-input" type="search" placeholder="Example: resident tax, clinic, 保険証, guarantor">
+<p class="muted">This is a simple keyword search. It only searches pages on this site.</p>
+</section>
+
+<section>
+<h2>Results</h2>
+<div id="search-results" class="search-results">
+<p class="muted">Type a keyword to search.</p>
+</div>
+</section>
+
+<div class="cat-tip">🐱 <b>Cat tip:</b> Search works best with short words: “tax”, “clinic”, “rent”, “phone”, or one Japanese term.</div>
+
+<nav class="next-guide">
+<a href="index.html#articles">All guides</a>
+<a href="request-topic.html">Request a topic →</a>
+</nav>
+</article>
+</main>
+
+<footer class="footer">
+<div class="wrap">
+<strong>Japan Life Explained</strong><br>
+Simple guides for working and living in Japan.
+<div class="footer-links">
+<a href="about.html">About</a>
+<a href="faq.html">FAQ</a>
+<a href="search.html">Search</a>
+<a href="disclaimer.html">Disclaimer</a>
+<a href="official-resources.html">Official resources</a>
+<a href="request-topic.html">Request a topic</a>
+</div>
+</div>
+</footer>
+
+<script>
+const results = document.getElementById('search-results');
+const input = document.getElementById('site-search');
+let searchIndex = [];
+
+function escapeHtml(str) {
+  return String(str).replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
+}
+
+function scorePage(page, terms) {
+  const title = page.title.toLowerCase();
+  const summary = page.summary.toLowerCase();
+  const keywords = page.keywords.toLowerCase();
+  let score = 0;
+  for (const term of terms) {
+    if (title.includes(term)) score += 8;
+    if (summary.includes(term)) score += 4;
+    if (keywords.includes(term)) score += 1;
+  }
+  return score;
+}
+
+function render(query) {
+  const q = query.trim().toLowerCase();
+  if (!q) {
+    results.innerHTML = '<p class="muted">Type a keyword to search.</p>';
+    return;
+  }
+  const terms = q.split(/\s+/).filter(Boolean);
+  const matched = searchIndex
+    .map(page => ({...page, score: scorePage(page, terms)}))
+    .filter(page => page.score > 0)
+    .sort((a,b) => b.score - a.score)
+    .slice(0, 10);
+
+  if (!matched.length) {
+    results.innerHTML = '<p class="muted">No matching guides found. Try a shorter keyword, or request a topic.</p><p><a class="button secondary" href="request-topic.html">Request a topic</a></p>';
+    return;
+  }
+
+  results.innerHTML = matched.map(page => `
+    <a class="search-result-card" href="${escapeHtml(page.url)}">
+      <span class="badge">${escapeHtml(page.category)}</span>
+      <h3>${escapeHtml(page.title)}</h3>
+      <p>${escapeHtml(page.summary)}</p>
+    </a>
+  `).join('');
+}
+
+fetch('assets/search-index.json')
+  .then(res => res.json())
+  .then(data => {
+    searchIndex = data;
+    input.addEventListener('input', () => render(input.value));
+    const params = new URLSearchParams(location.search);
+    if (params.get('q')) {
+      input.value = params.get('q');
+      render(input.value);
+    }
+  })
+  .catch(() => {
+    results.innerHTML = '<p class="muted">Search index could not be loaded.</p>';
+  });
+</script>
+</body>
+</html>

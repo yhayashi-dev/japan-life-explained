@@ -1,0 +1,1 @@
+Added simple static keyword search: search.html and assets/search-index.json.

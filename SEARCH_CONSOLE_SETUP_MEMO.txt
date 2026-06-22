@@ -1,0 +1,27 @@
+# Google Search Console Setup Memo
+
+Site URL:
+https://japan-life-explained.netlify.app/
+
+Sitemap:
+https://japan-life-explained.netlify.app/sitemap.xml
+
+Recommended property type:
+URL prefix
+
+Recommended verification:
+HTML file upload
+
+Steps:
+1. Open Google Search Console.
+2. Add property as URL prefix.
+3. Enter https://japan-life-explained.netlify.app/
+4. Download the HTML verification file.
+5. Put that file in the root of the site folder.
+6. Re-upload the site to Netlify.
+7. Click Verify in Search Console.
+8. Submit sitemap.xml.
+
+Notes:
+- It can take days or weeks for data to appear.
+- Do not expect immediate Google search traffic.

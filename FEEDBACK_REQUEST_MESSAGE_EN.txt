@@ -1,0 +1,16 @@
+Could you take a quick look at this site?
+
+Japan Life Explained
+https://japan-life-explained.netlify.app
+
+It is a simple English guide site for people working or living in Japan.
+
+Feedback form:
+https://docs.google.com/forms/d/e/1FAIpQLSdxY5r0ZqPf2DwVX-5DOzd_FUXAeEILaOCU9dyPBGl920HeFw/viewform?usp=publish-editor
+
+I am especially checking:
+- Does it look trustworthy?
+- Is it easy to find the right guide?
+- Are the explanations too difficult?
+- Are the Japanese words and romaji useful?
+- What topic should be added next?

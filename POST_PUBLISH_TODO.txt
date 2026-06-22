@@ -1,0 +1,26 @@
+# Post-publish TODO
+
+Live URL:
+https://japan-life-explained.netlify.app/
+
+## Check
+[ ] Homepage opens
+[ ] 8 articles open
+[ ] Search works
+[ ] Category filter works
+[ ] Request page opens
+[ ] Disclaimer opens
+[ ] Sources opens
+[ ] Official resources opens
+[ ] Mobile display looks okay
+
+## Ask reviewers
+[ ] Ask 1 person who may use English guide pages
+[ ] Ask 1 Japanese person to check misleading wording
+[ ] Ask 1 person who knows web design or UX
+
+## Later
+[ ] Google Form
+[ ] Custom domain
+[ ] Search Console
+[ ] Add more articles based on feedback

@@ -1,0 +1,20 @@
+# 今回のアップロード先
+
+固定URL：
+https://japan-life-explained.netlify.app/
+
+これからは新しいサイトを作らず、既存の
+
+japan-life-explained
+
+のプロジェクトに再アップロードしてください。
+
+手順：
+1. Netlifyで japan-life-explained のプロジェクトを開く
+2. Deploys を開く
+3. Deploy manually / Upload project files を選ぶ
+4. このZIPをアップロードする
+
+注意：
+Add new project は押さない。
+新しいプロジェクトを作ると、またランダムURLになります。

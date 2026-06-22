@@ -1,0 +1,16 @@
+# Japanese Review Ready v1
+
+Added:
+- japanese-review.html
+- JAPANESE_REVIEW_REQUEST_MESSAGE.txt
+- Homepage link to Japanese review helper
+
+Purpose:
+People who do not read English can still review:
+- first impression
+- mobile readability
+- visual trust
+- navigation clarity
+- whether the site looks suspicious
+
+Upload this ZIP to the existing japan-life-explained Netlify project.

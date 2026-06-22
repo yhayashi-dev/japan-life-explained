@@ -1,0 +1,8 @@
+# Jovial URL Update v1
+
+Updated all known old Netlify URLs to:
+
+https://japan-life-explained.netlify.app/
+
+Upload this ZIP to Netlify only if you want the site text, sitemap, robots.txt,
+share messages, and live-status page to match this current URL.

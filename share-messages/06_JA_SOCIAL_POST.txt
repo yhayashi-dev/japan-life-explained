@@ -1,0 +1,9 @@
+外国人向けに、日本で暮らす・働くための手続きを英語で説明するサイトを作りました。
+
+Japan Life Explained
+https://japan-life-explained.netlify.app
+
+給与明細、住民税、健康保険、病院、住所登録、賃貸初期費用、銀行・携帯契約のループなどを、なるべく分かりやすく整理しています。
+
+フィードバック歓迎です。
+https://docs.google.com/forms/d/e/1FAIpQLSdxY5r0ZqPf2DwVX-5DOzd_FUXAeEILaOCU9dyPBGl920HeFw/viewform?usp=publish-editor

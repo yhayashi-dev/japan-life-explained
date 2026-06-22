@@ -1,0 +1,9 @@
+Added FAQ page.
+
+Purpose:
+- Improve visitor trust
+- Explain that the site is not official advice
+- Help users understand how to use the site
+- Add FAQPage structured data
+
+Upload only when Netlify deploys are no longer skipped.

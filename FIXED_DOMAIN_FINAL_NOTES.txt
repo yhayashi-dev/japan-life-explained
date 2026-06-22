@@ -1,0 +1,21 @@
+# Fixed Domain Final v1
+
+The Netlify project name has been fixed.
+
+Final public preview URL:
+https://japan-life-explained.netlify.app/
+
+Updated:
+- Homepage
+- live-status.html
+- post-publish.html
+- share messages
+- robots.txt
+- sitemap.xml
+- known old Netlify random URLs
+
+Upload this ZIP to the SAME Netlify project:
+japan-life-explained
+
+Do not create a new project.
+Use the existing project's Deploys page, then deploy manually.

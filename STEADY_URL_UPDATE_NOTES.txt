@@ -1,0 +1,15 @@
+# Steady URL Update v1
+
+Updated all known old Netlify URLs to:
+
+https://japan-life-explained.netlify.app/
+
+Updated:
+- HTML pages
+- robots.txt
+- sitemap.xml
+- share messages
+- post-publish page
+- live-status.html added
+
+Upload this ZIP to Netlify to make the public package self-consistent.

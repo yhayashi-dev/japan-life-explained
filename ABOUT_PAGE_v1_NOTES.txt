@@ -1,0 +1,10 @@
+Added about.html to improve trust and explain the purpose of Japan Life Explained.
+
+Includes:
+- What this site does
+- Who it is for
+- How guides are written
+- What this site is not
+- Feedback / topic request link
+
+Upload this ZIP only when Netlify deploys are no longer skipped.

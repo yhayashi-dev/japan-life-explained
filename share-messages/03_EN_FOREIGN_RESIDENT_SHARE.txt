@@ -1,0 +1,18 @@
+I made a simple English guide site for people working or living in Japan.
+
+Japan Life Explained
+https://japan-life-explained.netlify.app
+
+Current guides include:
+- Take-home pay and payslips
+- Resident tax
+- Health insurance
+- Visiting a clinic
+- Address registration
+- Move-in costs
+- Bank and phone setup loop
+
+The goal is to explain Japanese procedures in plain English, with important Japanese words, romaji, and practical tips.
+
+Feedback or topic requests are welcome:
+https://docs.google.com/forms/d/e/1FAIpQLSdxY5r0ZqPf2DwVX-5DOzd_FUXAeEILaOCU9dyPBGl920HeFw/viewform?usp=publish-editor

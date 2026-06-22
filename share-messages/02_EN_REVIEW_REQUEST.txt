@@ -1,0 +1,22 @@
+Hi,
+
+I made a small guide site for people working or living in Japan.
+
+Japan Life Explained
+https://japan-life-explained.netlify.app
+
+It explains practical topics such as salary, payslips, resident tax, health insurance, clinics, address registration, move-in costs, and the bank/phone setup loop.
+
+Could you take a quick look and tell me:
+
+1. Does the site look trustworthy?
+2. Is it easy to find the right guide?
+3. Are the explanations easy to understand?
+4. Are the Japanese words and romaji useful?
+5. Is anything confusing or missing?
+6. What topic should be added next?
+
+Feedback form:
+https://docs.google.com/forms/d/e/1FAIpQLSdxY5r0ZqPf2DwVX-5DOzd_FUXAeEILaOCU9dyPBGl920HeFw/viewform?usp=publish-editor
+
+Short comments are totally fine. Thank you!

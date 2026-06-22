@@ -1,0 +1,14 @@
+# SEO Basic v1
+
+Added:
+- meta descriptions
+- canonical URLs
+- Open Graph tags
+- Twitter card tags
+- WebSite JSON-LD on homepage
+- Article JSON-LD on article pages
+- seo-checklist.html
+- complete sitemap based on current HTML files
+
+Next:
+Register https://japan-life-explained.netlify.app/ in Google Search Console and submit sitemap.xml.

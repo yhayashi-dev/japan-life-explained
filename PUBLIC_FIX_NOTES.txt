@@ -1,0 +1,12 @@
+# Public Fix v1
+
+This version fixes old prototype wording after the first Netlify publish.
+
+Fixed:
+- "First 10 full-text prototype" -> "Public preview"
+- "first 10 guides" -> "first 8 guides"
+- placeholder site URL -> actual Netlify URL
+- robots.txt sitemap URL
+- sitemap.xml URLs
+
+Upload this ZIP to Netlify again to update the live site.

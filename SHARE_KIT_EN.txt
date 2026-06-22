@@ -1,0 +1,8 @@
+I made a small English guide site for people living, working, or preparing to live in Japan.
+
+Japan Life Explained
+https://japan-life-explained.netlify.app/
+
+It explains confusing Japan-life topics with simple diagrams, Japanese words, romaji, and English explanations.
+
+This is still a public preview, so feedback is welcome.

@@ -1,0 +1,18 @@
+# Sitemap XML Fixed v3
+
+Fixed sitemap.xml as valid XML with proper tags:
+- <?xml version="1.0" encoding="UTF-8"?>
+- <urlset>
+- <url>
+- <loc>
+- <lastmod>
+- <changefreq>
+- <priority>
+
+Also added Netlify _headers so /sitemap.xml is served as application/xml.
+
+Upload this ZIP to the existing Netlify project.
+Then open:
+https://japan-life-explained.netlify.app/sitemap.xml
+
+It should show XML tags, not only plain URL text.

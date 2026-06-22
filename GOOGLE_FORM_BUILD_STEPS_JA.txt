@@ -1,0 +1,22 @@
+Googleフォーム作成手順メモ
+
+1. Google Forms を開く
+2. Blank form を選ぶ
+3. フォーム名を入れる
+   Japan Life Explained - Feedback and Topic Request
+
+4. 説明文を入れる
+   個人情報を入れない注意を必ず入れる
+
+5. 質問を8個作る
+   GOOGLE_FORM_COPY_PASTE_KIT.txt を見ながらコピペ
+
+6. Settings で確認
+   - メールアドレス収集：オフ
+   - ログイン必須：オフ
+   - 1人1回制限：最初はオフ
+   - 回答後メッセージ：入れる
+
+7. Send → リンクアイコン → URLコピー
+
+8. そのURLを後で request-topic.html に入れる

@@ -1,0 +1,22 @@
+# Google Form Questions - English
+
+1. Which guide did you read?
+Type: Multiple choice or short answer
+
+2. Was the guide easy to understand?
+Type: Linear scale: 1 to 5
+
+3. Which part was confusing?
+Type: Paragraph
+
+4. Did the diagram help?
+Type: Yes / Somewhat / No
+
+5. Were the Japanese words and romaji useful?
+Type: Yes / Somewhat / No
+
+6. What topic should be added next?
+Type: Paragraph
+
+7. Are you living in Japan, planning to move, visiting, or just researching?
+Type: Multiple choice

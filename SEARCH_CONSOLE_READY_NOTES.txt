@@ -1,0 +1,11 @@
+# Search Console Ready v1
+
+Added:
+- search-console-guide.html
+- SEARCH_CONSOLE_SETUP_MEMO.txt
+- Homepage link to Search Console guide
+
+Purpose:
+Prepare the site for Google Search Console registration and sitemap submission.
+
+Upload this ZIP to the existing japan-life-explained Netlify project.

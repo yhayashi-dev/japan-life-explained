@@ -1,0 +1,13 @@
+# Feedback Form Ready v1
+
+Added:
+- feedback-form-plan.html
+- Google Form question plan
+- English and Japanese question text files
+- Request page link to form plan
+- Homepage link to feedback form plan
+
+Next:
+Create a Google Form manually, then paste the public form URL into request-topic.html.
+
+Upload this ZIP to the existing japan-life-explained Netlify project.

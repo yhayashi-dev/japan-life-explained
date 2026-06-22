@@ -1,0 +1,13 @@
+# Google verification fixed v2
+
+This package includes:
+- Google Search Console verification HTML file
+- sitemap.xml
+- robots.txt
+- css/style.css
+- js/main.js
+- all 8 article pages
+- QR asset
+
+Upload this ZIP to the existing Netlify project: japan-life-explained.
+After deploy, submit sitemap.xml again in Google Search Console.

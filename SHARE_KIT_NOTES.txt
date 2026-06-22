@@ -1,0 +1,10 @@
+# Share Kit v1
+
+Added:
+- share-kit.html
+- QR code image
+- Japanese short share message
+- Japanese review request message
+- English share message
+
+Upload this ZIP to the existing japan-life-explained Netlify project.

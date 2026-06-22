@@ -1,0 +1,56 @@
+公開後チェックリスト 日本語メモ
+
+使うZIP:
+この時点の最新版ZIPを、既存Netlifyプロジェクト japan-life-explained にアップロードする。
+
+重要:
+- Add new project は押さない
+- 既存プロジェクト japan-life-explained の Deploys からアップロード
+- Deploy skipped ではなく Published になるまで待つ
+
+1. Netlify確認
+- 最新Deployが緑
+- Published と表示
+- https://japan-life-explained.netlify.app を開く
+
+2. トップページ確認
+- Start here が見える
+- 記事カードが開く
+- About / FAQ / Request a topic / Disclaimer が開く
+
+3. 記事確認
+- Take-home pay
+- Payslip
+- Resident tax
+- Health insurance
+- Clinic
+- Address registration
+- Move-in costs
+- Guarantor company
+- Bank & phone loop
+
+4. Googleフォーム確認
+- Request a topicページを開く
+- Open feedback formを押す
+- Googleフォームが開く
+- 必要ならテスト回答
+
+5. sitemap確認
+- https://japan-life-explained.netlify.app/sitemap.xml を開く
+- 先頭に <?xml が見える
+- <urlset が見える
+
+6. Search Console
+- Sitemaps
+- sitemap.xml を送信
+- 失敗したら、sitemapがブラウザで見えるか確認してから再送信
+
+7. スマホ確認
+- iPhoneでトップページを見る
+- 記事を見る
+- 表が崩れていないか見る
+- フォームが開くか見る
+
+8. 共有
+- まず1〜3人にレビュー依頼
+- 広く配るのは修正後
