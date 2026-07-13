@@ -1,4 +1,5 @@
 User-agent: *
 Allow: /
 
+Sitemap: https://yhayashi-dev.github.io/japan-life-explained/sitemap.txt
 Sitemap: https://yhayashi-dev.github.io/japan-life-explained/sitemap.xml
