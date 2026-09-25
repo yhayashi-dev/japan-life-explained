@@ -665,3 +665,13 @@ section{padding:34px 0}.section-title{display:flex;justify-content:space-between
 .hero-actions .button{display:inline-flex;align-items:center;padding:10px 16px;border-radius:14px;background:var(--blue2);color:white;font-weight:700}
 .hero-actions .button.secondary{background:white;color:var(--blue2)}
 .resource-item a,.footer a{ text-decoration:underline;text-underline-offset:3px }
+
+/* Homepage situation paths: native disclosure, no JavaScript required. */
+.situation-grid{align-items:start}
+.situation-grid .path-card:hover{transform:none;box-shadow:none}
+.situation-grid a{text-decoration:underline;text-underline-offset:3px}
+.situation-grid summary{cursor:pointer;font-weight:600;padding:8px 0}
+.situation-grid summary:focus-visible{outline:2px solid #2563eb;outline-offset:3px}
+.situation-grid ol{padding-left:22px}
+.situation-grid li{margin-top:12px}
+.situation-grid li p{margin:4px 0 12px}
