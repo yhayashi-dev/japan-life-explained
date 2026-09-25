@@ -16,3 +16,6 @@ https://yhayashi-dev.github.io/japan-life-explained/articles/resident-tax.html
 https://yhayashi-dev.github.io/japan-life-explained/articles/take-home-pay.html
 https://yhayashi-dev.github.io/japan-life-explained/sources.html
 https://yhayashi-dev.github.io/japan-life-explained/privacy.html
+https://yhayashi-dev.github.io/japan-life-explained/articles/lost-job-first-steps.html
+https://yhayashi-dev.github.io/japan-life-explained/articles/health-insurance-after-job.html
+https://yhayashi-dev.github.io/japan-life-explained/articles/pension-work-changes.html
