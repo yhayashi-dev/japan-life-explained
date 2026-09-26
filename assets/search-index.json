@@ -146,5 +146,21 @@
       "pension-work-changes",
       "year-end-adjustment-tax-return"
     ]
+  },
+  {
+    "title": "Leaving Japan: What to Check Before You Go",
+    "url": "articles/leaving-japan-checklist.html",
+    "category": "Leaving Japan",
+    "summary": "Moving out of Japan? Check municipal registration, taxes, health insurance, pension and re-entry plans before you leave.",
+    "keywords": "leaving Japan moving overseas move out departure tax representative My Number re-entry pension lump-sum withdrawal health insurance",
+    "article_id": "leaving-japan-checklist",
+    "related_article_id": [
+      "resident-tax",
+      "year-end-adjustment-tax-return",
+      "health-insurance-after-job",
+      "pension-work-changes",
+      "lost-job-first-steps",
+      "changing-jobs-residence-procedures"
+    ]
   }
 ]

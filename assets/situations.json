@@ -217,6 +217,39 @@
           "condition": "If you need to check your withholding slip, year-end adjustment or a tax return."
         }
       ]
+    },
+    {
+      "situation_id": "leaving-japan",
+      "category": "Leaving Japan",
+      "label": "I am leaving Japan",
+      "description": "Moving your main home abroad? Check municipal, tax, insurance, pension and residence procedures separately. This guide is not for a short trip.",
+      "steps": [
+        {
+          "article_id": "leaving-japan-checklist",
+          "label": "Leaving Japan: what to check before you go",
+          "condition": "Start with the checklist for moving your main home abroad."
+        },
+        {
+          "article_id": "lost-job-first-steps",
+          "label": "Checks after leaving a job",
+          "condition": "If you are leaving your job before leaving Japan, check the first tasks."
+        },
+        {
+          "article_id": "resident-tax",
+          "label": "Resident tax",
+          "condition": "If you need to check a tax notice or how to pay resident tax, read this guide."
+        },
+        {
+          "article_id": "pension-work-changes",
+          "label": "Pension after a work change",
+          "condition": "If you need to check your pension records or registration category, read this guide."
+        },
+        {
+          "article_id": "year-end-adjustment-tax-return",
+          "label": "Year-end adjustment and tax returns",
+          "condition": "If you need to check income tax, your withholding slip, year-end adjustment or a tax return, read this guide."
+        }
+      ]
     }
   ],
   "articles": [
@@ -227,7 +260,8 @@
         "lost-job",
         "resident-tax-notice",
         "year-end-tax",
-        "changing-jobs"
+        "changing-jobs",
+        "leaving-japan"
       ],
       "previous_article_ids": [
         "payslip"
@@ -255,7 +289,8 @@
       "url": "articles/pension-work-changes.html",
       "situation_ids": [
         "lost-job",
-        "changing-jobs"
+        "changing-jobs",
+        "leaving-japan"
       ],
       "previous_article_ids": [
         "health-insurance-after-job"
@@ -271,7 +306,8 @@
         "lost-job",
         "resident-tax-notice",
         "first-pay",
-        "year-end-tax"
+        "year-end-tax",
+        "leaving-japan"
       ],
       "previous_article_ids": [
         "pension-work-changes",
@@ -395,7 +431,8 @@
       "url": "articles/year-end-adjustment-tax-return.html",
       "situation_ids": [
         "year-end-tax",
-        "changing-jobs"
+        "changing-jobs",
+        "leaving-japan"
       ],
       "previous_article_ids": [
         "payslip",
@@ -419,6 +456,20 @@
       "next_article_ids": [
         "lost-job-first-steps",
         "health-insurance-after-job",
+        "pension-work-changes",
+        "year-end-adjustment-tax-return"
+      ]
+    },
+    {
+      "article_id": "leaving-japan-checklist",
+      "url": "articles/leaving-japan-checklist.html",
+      "situation_ids": [
+        "leaving-japan"
+      ],
+      "previous_article_ids": [],
+      "next_article_ids": [
+        "lost-job-first-steps",
+        "resident-tax",
         "pension-work-changes",
         "year-end-adjustment-tax-return"
       ]
