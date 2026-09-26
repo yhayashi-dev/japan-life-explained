@@ -184,6 +184,39 @@
           "condition": "If you left a job during the year, check the wider checklist."
         }
       ]
+    },
+    {
+      "situation_id": "changing-jobs",
+      "category": "Work",
+      "label": "I am changing jobs",
+      "description": "Check your current status of residence, your new work and notifications to Immigration.",
+      "steps": [
+        {
+          "article_id": "changing-jobs-residence-procedures",
+          "label": "Changing jobs in Japan: residence procedures to check",
+          "condition": "Start by checking your status of residence and the new work."
+        },
+        {
+          "article_id": "lost-job-first-steps",
+          "label": "Checks after leaving a job",
+          "condition": "If there is a gap between leaving your old job and starting the next one."
+        },
+        {
+          "article_id": "health-insurance-after-job",
+          "label": "Health insurance after leaving a job",
+          "condition": "If leaving your job means you need to change health insurance."
+        },
+        {
+          "article_id": "pension-work-changes",
+          "label": "Pension when your work situation changes",
+          "condition": "If you need to check your pension category or procedures."
+        },
+        {
+          "article_id": "year-end-adjustment-tax-return",
+          "label": "Year-end adjustment or a tax return?",
+          "condition": "If you need to check your withholding slip, year-end adjustment or a tax return."
+        }
+      ]
     }
   ],
   "articles": [
@@ -193,7 +226,8 @@
       "situation_ids": [
         "lost-job",
         "resident-tax-notice",
-        "year-end-tax"
+        "year-end-tax",
+        "changing-jobs"
       ],
       "previous_article_ids": [
         "payslip"
@@ -206,7 +240,8 @@
       "article_id": "health-insurance-after-job",
       "url": "articles/health-insurance-after-job.html",
       "situation_ids": [
-        "lost-job"
+        "lost-job",
+        "changing-jobs"
       ],
       "previous_article_ids": [
         "lost-job-first-steps"
@@ -219,7 +254,8 @@
       "article_id": "pension-work-changes",
       "url": "articles/pension-work-changes.html",
       "situation_ids": [
-        "lost-job"
+        "lost-job",
+        "changing-jobs"
       ],
       "previous_article_ids": [
         "health-insurance-after-job"
@@ -358,7 +394,8 @@
       "article_id": "year-end-adjustment-tax-return",
       "url": "articles/year-end-adjustment-tax-return.html",
       "situation_ids": [
-        "year-end-tax"
+        "year-end-tax",
+        "changing-jobs"
       ],
       "previous_article_ids": [
         "payslip",
@@ -368,6 +405,22 @@
         "payslip",
         "resident-tax",
         "lost-job-first-steps"
+      ]
+    },
+    {
+      "article_id": "changing-jobs-residence-procedures",
+      "url": "articles/changing-jobs-residence-procedures.html",
+      "situation_ids": [
+        "changing-jobs"
+      ],
+      "previous_article_ids": [
+        "lost-job-first-steps"
+      ],
+      "next_article_ids": [
+        "lost-job-first-steps",
+        "health-insurance-after-job",
+        "pension-work-changes",
+        "year-end-adjustment-tax-return"
       ]
     }
   ]
