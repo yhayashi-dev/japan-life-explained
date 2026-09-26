@@ -156,6 +156,34 @@
           "condition": "If your address is not registered yet, check this first."
         }
       ]
+    },
+    {
+      "situation_id": "year-end-tax",
+      "category": "Money & tax",
+      "label": "I received year-end tax forms from my employer",
+      "description": "Find out what to ask payroll and whether to check a tax return.",
+      "steps": [
+        {
+          "article_id": "year-end-adjustment-tax-return",
+          "label": "Year-end adjustment or a tax return?",
+          "condition": "Start by checking what your employer will handle."
+        },
+        {
+          "article_id": "payslip",
+          "label": "Read your payslip",
+          "condition": "If you do not understand income tax withheld from your salary, check the deduction."
+        },
+        {
+          "article_id": "resident-tax",
+          "label": "Understand resident tax",
+          "condition": "If your question is about a resident-tax notice or deduction, read this guide."
+        },
+        {
+          "article_id": "lost-job-first-steps",
+          "label": "Checks after leaving a job",
+          "condition": "If you left a job during the year, check the wider checklist."
+        }
+      ]
     }
   ],
   "articles": [
@@ -164,7 +192,8 @@
       "url": "articles/lost-job-first-steps.html",
       "situation_ids": [
         "lost-job",
-        "resident-tax-notice"
+        "resident-tax-notice",
+        "year-end-tax"
       ],
       "previous_article_ids": [
         "payslip"
@@ -205,7 +234,8 @@
       "situation_ids": [
         "lost-job",
         "resident-tax-notice",
-        "first-pay"
+        "first-pay",
+        "year-end-tax"
       ],
       "previous_article_ids": [
         "pension-work-changes",
@@ -220,7 +250,8 @@
       "url": "articles/payslip.html",
       "situation_ids": [
         "resident-tax-notice",
-        "first-pay"
+        "first-pay",
+        "year-end-tax"
       ],
       "previous_article_ids": [
         "resident-tax"
@@ -321,6 +352,22 @@
       ],
       "next_article_ids": [
         "bank-phone-loop"
+      ]
+    },
+    {
+      "article_id": "year-end-adjustment-tax-return",
+      "url": "articles/year-end-adjustment-tax-return.html",
+      "situation_ids": [
+        "year-end-tax"
+      ],
+      "previous_article_ids": [
+        "payslip",
+        "lost-job-first-steps"
+      ],
+      "next_article_ids": [
+        "payslip",
+        "resident-tax",
+        "lost-job-first-steps"
       ]
     }
   ]
