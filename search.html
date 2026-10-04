@@ -75,11 +75,13 @@ function escapeHtml(str) {
   return String(str).replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
 }
 
-function scorePage(page, terms) {
+function scorePage(page, terms, query) {
   const title = page.title.toLowerCase();
   const summary = page.summary.toLowerCase();
   const keywords = page.keywords.toLowerCase();
-  let score = 0;
+  // Prefer a small, curated set of exact situation phrases; keep keyword scoring unchanged.
+  const exactPhrase = (page.search_phrases || []).some(phrase => phrase.toLowerCase() === query);
+  let score = exactPhrase ? 100 : 0;
   for (const term of terms) {
     if (title.includes(term)) score += 8;
     if (summary.includes(term)) score += 4;
@@ -89,14 +91,14 @@ function scorePage(page, terms) {
 }
 
 function render(query) {
-  const q = query.trim().toLowerCase();
+  const q = query.trim().toLowerCase().replace(/\s+/g, ' ');
   if (!q) {
     results.innerHTML = '<p class="muted">Type a keyword to search.</p>';
     return;
   }
   const terms = q.split(/\s+/).filter(Boolean);
   const matched = searchIndex
-    .map(page => ({...page, score: scorePage(page, terms)}))
+    .map(page => ({...page, score: scorePage(page, terms, q)}))
     .filter(page => page.score > 0)
     .sort((a,b) => b.score - a.score)
     .slice(0, 10);
