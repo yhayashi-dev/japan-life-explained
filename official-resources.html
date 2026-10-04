@@ -20,6 +20,20 @@
 #local-help .local-help-links{list-style:none;padding:0}
 #local-help .local-help-links a{display:inline-flex;align-items:center;min-height:44px}
 #local-help:focus-visible,#local-help a:focus-visible{outline:2px solid #2563eb;outline-offset:3px}
+
+#emergency-help{scroll-margin-top:125px;padding:16px}
+#emergency-help h2{margin:0 0 8px}
+#emergency-help .emergency-numbers{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+#emergency-help .emergency-number{display:block;font-size:36px;font-weight:900;line-height:1.3;min-height:48px}
+#emergency-help .emergency-option{padding:12px;border:1px solid var(--line);border-radius:14px}
+#emergency-help h3{margin:0;font-size:18px}
+#emergency-help p{margin:8px 0}
+#emergency-help a{ text-decoration:underline;text-underline-offset:3px }
+#emergency-help p a{display:inline-block;min-height:44px;padding:8px 0}
+#emergency-help summary{cursor:pointer;min-height:44px;padding:8px 0}
+#emergency-help details a{display:inline-block;min-height:44px;padding:8px 0}
+#emergency-help:focus-visible,#emergency-help a:focus-visible,#emergency-help summary:focus-visible{outline:2px solid #2563eb;outline-offset:3px}
+@media(max-width:480px){#emergency-help .emergency-numbers{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -38,6 +52,41 @@
 <span class="badge">Trust and safety</span>
 <h1>Official resources</h1>
 <p class="summary">For important procedures, use this site as a friendly starting point and then confirm details with official sources.</p>
+
+<section id="emergency-help" class="info-box" aria-labelledby="emergency-heading" tabindex="-1">
+<h2 id="emergency-heading">Emergency help in Japan</h2>
+<div class="emergency-numbers">
+<div class="emergency-option">
+<h3>Police</h3>
+<a class="emergency-number" href="tel:110" aria-label="Call 110 — Police">110</a>
+<p>For a crime or accident needing police now.</p>
+</div>
+<div class="emergency-option">
+<h3>Fire / Ambulance</h3>
+<a class="emergency-number" href="tel:119" aria-label="Call 119 — Fire or ambulance">119</a>
+<p>To report a fire or request an emergency ambulance.</p>
+</div>
+</div>
+<p>Tell the operator what happened and where you are. Give your address or a nearby landmark. Answer the operator’s questions.</p>
+<p>For 119, say fire (<span lang="ja">火事</span>, <i>kaji</i>) or ambulance (<span lang="ja">救急</span>, <i>kyūkyū</i>).</p>
+<p><b>Emergency at sea:</b> call <a href="tel:118" aria-label="Call 118 — Coast Guard">118</a> (Coast Guard).</p>
+<h3>If Japanese is difficult</h3>
+<p>Tell the operator which language you speak. Language support varies by service and area. If someone nearby speaks Japanese, ask them to help with the call.</p>
+<h3>Not an emergency?</h3>
+<p>For non-urgent police advice, contact your local police station. For a <a href="articles/clinic.html">routine clinic visit</a> or <a href="#local-help">local procedures and multilingual life advice</a>, use the relevant guide. These services do not replace emergency services.</p>
+<details>
+<summary>Official guidance and language support</summary>
+<ul>
+<li><a href="https://www.npa.go.jp/goiken_index.html">National Police Agency: emergencies and non-urgent advice (Japanese)</a></li>
+<li><a href="https://www.fdma.go.jp/publication/portal/items/portal001_pamphiet_english.pdf">Fire and Disaster Management Agency: calling an ambulance (English PDF)</a></li>
+<li><a href="https://www.fdma.go.jp/mission/enrichment/gaikokujin_syougaisya_torikumi/torikumi.html">Fire and Disaster Management Agency: language and accessibility support (Japanese)</a></li>
+<li><a href="https://www.tfd.metro.tokyo.lg.jp/lfe/119/119.html">Tokyo Fire Department: 119 and language support (Japanese; Tokyo service area)</a></li>
+<li><a href="https://www.kaiho.mlit.go.jp/doc/tel118.html">Japan Coast Guard: emergencies at sea (Japanese)</a></li>
+</ul>
+<p>Check local official guidance for available languages. Tokyo’s arrangements do not apply everywhere.</p>
+<p class="muted">Emergency information checked: 5 October 2026.</p>
+</details>
+</section>
 <div class="resource-list"><div class="resource-item"><strong><a href="https://www.moj.go.jp/isa/support/portal/index.html">Immigration Services Agency of Japan ↗</a></strong><p>Residence Card, status of residence, period of stay, re-entry, and immigration procedures.</p></div><div class="resource-item"><strong><a href="https://www.nta.go.jp/english/index.htm">National Tax Agency ↗</a></strong><p>Income tax, year-end adjustment, final tax return, and tax guidance.</p></div><div class="resource-item"><strong><a href="https://www.nenkin.go.jp/international/english/index.html">Japan Pension Service ↗</a></strong><p>National pension, employee pension, pension enrollment, and lump-sum withdrawal information.</p></div><div class="resource-item"><strong><a href="https://www.mhlw.go.jp/stf/newpage_50657.html">Ministry of Health, Labour and Welfare ↗</a></strong><p>Health insurance, My Number health insurance card, medical and labour-related information.</p></div><div class="resource-item"><strong><a href="#local-help">Local city / ward office — find local help</a></strong><p>Use the official website of the municipality where you live for address registration, National Health Insurance, resident tax and garbage rules. The national links here do not replace local instructions.</p></div><div class="resource-item"><strong><a href="https://www.kokusen.go.jp/ncac_index_e.html">Consumer Affairs / housing guidance ↗</a></strong><p>Rental contracts, deposits, move-out costs, and consumer trouble prevention.</p></div></div>
 
 <section id="local-help" class="info-box resource-item" aria-labelledby="local-help-heading" tabindex="-1">

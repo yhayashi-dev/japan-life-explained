@@ -182,5 +182,21 @@
     "category": "Daily life",
     "summary": "Find your municipality’s garbage rules, collection day, bags and collection point. Check the separate procedure for oversized garbage.",
     "keywords": "garbage trash rubbish garbage day oversized garbage collection sorting recycling bags municipality ごみ ごみ収集 ごみ分別 収集日 粗大ごみ ごみカレンダー"
+  },
+  {
+    "title": "Emergency numbers: Police / Fire / Ambulance",
+    "url": "official-resources.html#emergency-help",
+    "category": "Emergency",
+    "summary": "110: Police. 119: Fire or ambulance. Emergency calls only.",
+    "keywords": "emergency police ambulance fire 110 119 118 coast guard emergency at sea",
+    "search_phrases": [
+      "emergency",
+      "police",
+      "ambulance",
+      "fire",
+      "110",
+      "119",
+      "118"
+    ]
   }
 ]
