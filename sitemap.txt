@@ -25,3 +25,4 @@ https://yhayashi-dev.github.io/japan-life-explained/articles/leaving-japan-check
 https://yhayashi-dev.github.io/japan-life-explained/vi/articles/address-registration.html
 https://yhayashi-dev.github.io/japan-life-explained/vi/articles/health-insurance.html
 https://yhayashi-dev.github.io/japan-life-explained/vi/articles/payslip.html
+https://yhayashi-dev.github.io/japan-life-explained/articles/garbage-disposal.html
