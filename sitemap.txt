@@ -22,3 +22,6 @@ https://yhayashi-dev.github.io/japan-life-explained/articles/pension-work-change
 https://yhayashi-dev.github.io/japan-life-explained/articles/year-end-adjustment-tax-return.html
 https://yhayashi-dev.github.io/japan-life-explained/articles/changing-jobs-residence-procedures.html
 https://yhayashi-dev.github.io/japan-life-explained/articles/leaving-japan-checklist.html
+https://yhayashi-dev.github.io/japan-life-explained/vi/articles/address-registration.html
+https://yhayashi-dev.github.io/japan-life-explained/vi/articles/health-insurance.html
+https://yhayashi-dev.github.io/japan-life-explained/vi/articles/payslip.html
