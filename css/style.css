@@ -675,3 +675,6 @@ section{padding:34px 0}.section-title{display:flex;justify-content:space-between
 .situation-grid ol{padding-left:22px}
 .situation-grid li{margin-top:12px}
 .situation-grid li p{margin:4px 0 12px}
+
+/* Keep homepage quick-start targets below the sticky navigation. */
+#situation-moving, #vietnamese-guides{scroll-margin-top:160px}
