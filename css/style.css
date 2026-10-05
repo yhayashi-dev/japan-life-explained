@@ -678,3 +678,10 @@ section{padding:34px 0}.section-title{display:flex;justify-content:space-between
 
 /* Keep homepage quick-start targets below the sticky navigation. */
 #situation-moving, #vietnamese-guides{scroll-margin-top:160px}
+
+/* First-days checklist reuses the existing moving / quick-start target. */
+#situation-moving{grid-column:1 / -1}
+#situation-moving .arrival-checklist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 32px}
+#situation-moving .arrival-checklist a{display:inline-block;padding:10px 0;font-weight:600}
+#situation-moving .arrival-checklist a:focus-visible{outline:2px solid #2563eb;outline-offset:3px}
+@media(max-width:640px){#situation-moving .arrival-checklist{grid-template-columns:1fr}}
