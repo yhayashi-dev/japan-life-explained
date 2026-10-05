@@ -26,3 +26,4 @@ https://yhayashi-dev.github.io/japan-life-explained/vi/articles/address-registra
 https://yhayashi-dev.github.io/japan-life-explained/vi/articles/health-insurance.html
 https://yhayashi-dev.github.io/japan-life-explained/vi/articles/payslip.html
 https://yhayashi-dev.github.io/japan-life-explained/articles/garbage-disposal.html
+https://yhayashi-dev.github.io/japan-life-explained/articles/starting-utilities.html
