@@ -226,5 +226,22 @@
       "first days in japan",
       "first week in japan"
     ]
+  },
+  {
+    "title": "Disaster and Evacuation Information in Japan",
+    "url": "articles/disaster-evacuation-information.html",
+    "summary": "Find current official warnings, local evacuation information, designated places and multilingual guidance for your area.",
+    "keywords": "disaster earthquake typhoon flood tsunami evacuation shelter hazard map warnings preparedness",
+    "search_phrases": [
+      "disaster",
+      "earthquake",
+      "typhoon",
+      "flood",
+      "tsunami",
+      "evacuation",
+      "shelter",
+      "hazard map"
+    ],
+    "category": "Daily life"
   }
 ]
