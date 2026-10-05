@@ -243,5 +243,22 @@
       "hazard map"
     ],
     "category": "Daily life"
+  },
+  {
+    "title": "Work help and public consultation",
+    "url": "official-resources.html#work-help",
+    "category": "Work",
+    "summary": "Choose a public service for unpaid wages, workplace questions or finding work.",
+    "keywords": "unpaid wages unpaid salary working conditions labor consultation labour consultation job search find a job Hello Work",
+    "search_phrases": [
+      "unpaid wages",
+      "unpaid salary",
+      "working conditions",
+      "labor consultation",
+      "labour consultation",
+      "job search",
+      "find a job",
+      "Hello Work"
+    ]
   }
 ]
