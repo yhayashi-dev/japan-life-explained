@@ -260,5 +260,20 @@
       "find a job",
       "Hello Work"
     ]
+  },
+  {
+    "title": "Lost or Damaged Residence Card: First Steps",
+    "url": "articles/lost-residence-card.html",
+    "category": "Residence procedures",
+    "summary": "Find the official first steps for a missing or damaged card and its replacement.",
+    "keywords": "lost residence card stolen residence card damaged residence card replace residence card residence card reissue",
+    "search_phrases": [
+      "lost residence card",
+      "residence card lost",
+      "stolen residence card",
+      "damaged residence card",
+      "replace residence card",
+      "residence card reissue"
+    ]
   }
 ]
