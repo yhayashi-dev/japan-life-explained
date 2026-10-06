@@ -29,3 +29,4 @@ https://yhayashi-dev.github.io/japan-life-explained/articles/garbage-disposal.ht
 https://yhayashi-dev.github.io/japan-life-explained/articles/starting-utilities.html
 https://yhayashi-dev.github.io/japan-life-explained/articles/disaster-evacuation-information.html
 https://yhayashi-dev.github.io/japan-life-explained/articles/lost-residence-card.html
+https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/address-registration.html
