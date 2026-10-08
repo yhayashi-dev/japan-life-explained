@@ -31,3 +31,4 @@ https://yhayashi-dev.github.io/japan-life-explained/articles/disaster-evacuation
 https://yhayashi-dev.github.io/japan-life-explained/articles/lost-residence-card.html
 https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/address-registration.html
 https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/health-insurance.html
+https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/starting-utilities.html
