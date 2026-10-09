@@ -275,5 +275,21 @@
       "replace residence card",
       "residence card reissue"
     ]
+  },
+  {
+    "title": "Mail in Japan: Forwarding and Missed Deliveries",
+    "url": "articles/mail-forwarding-redelivery.html",
+    "category": "Daily life",
+    "summary": "Moving or missed a delivery? Find Japan Post forwarding, redelivery and collection instructions, deadlines and the limits of forwarding.",
+    "keywords": "mail postal forwarding redelivery missed delivery delivery notice Japan Post post office 転送 再配達",
+    "search_phrases": [
+      "mail forwarding",
+      "forward mail",
+      "redelivery",
+      "missed delivery",
+      "delivery notice",
+      "Japan Post",
+      "post office"
+    ]
   }
 ]
