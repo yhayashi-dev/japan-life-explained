@@ -40,3 +40,4 @@ https://yhayashi-dev.github.io/japan-life-explained/vi/articles/bank-phone-loop.
 https://yhayashi-dev.github.io/japan-life-explained/vi/articles/clinic.html
 https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/bank-phone-loop.html
 https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/payslip.html
+https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/clinic.html
