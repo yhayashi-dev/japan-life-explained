@@ -131,6 +131,9 @@ fetch('assets/search-index.json')
     if (params.get('q')) {
       input.value = params.get('q');
       render(input.value);
+    } else if (input.value) {
+      // Preserve typing that happened before the index finished loading.
+      render(input.value);
     }
   })
   .catch(() => {
