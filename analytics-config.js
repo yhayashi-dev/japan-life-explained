@@ -84,7 +84,20 @@ window.SuzumeAnalyticsConfig = {
     "/japan-life-explained/zh-hans/articles/starting-utilities.html": "在日本开始使用电、燃气和自来水 | Japan Life Explained",
     "/japan-life-explained/zh-hans/articles/take-home-pay.html": "为什么在日本的到手工资低于约定工资？ | Japan Life Explained",
     "/japan-life-explained/zh-hans/articles/year-end-adjustment-tax-return.html": "日本年末调整与个人报税（年末調整・確定申告） | Japan Life Explained",
-    "/japan-life-explained/": "Japan Life Explained | Simple guides for working and living in Japan"
+    "/japan-life-explained/": "Japan Life Explained | Simple guides for working and living in Japan",
+    "/japan-life-explained/ne/articles/address-registration.html": "जापानमा आफ्नो ठेगाना कसरी दर्ता गर्ने | Japan Life Explained",
+    "/japan-life-explained/ne/articles/bank-phone-loop.html": "जापानमा बैंक र फोनको आपसी निर्भरता | Japan Life Explained",
+    "/japan-life-explained/ne/articles/health-insurance.html": "जापानको स्वास्थ्य बीमा: नयाँ बासिन्दाले जान्नुपर्ने कुरा | Japan Life Explained",
+    "/japan-life-explained/ne/articles/payslip.html": "जापानी तलब विवरण कसरी पढ्ने | Japan Life Explained",
+    "/japan-life-explained/ne/articles/changing-jobs-residence-procedures.html": "जापानमा काम बदल्दा जाँच्नुपर्ने बसोबास प्रक्रिया | Japan Life Explained",
+    "/japan-life-explained/id/articles/payslip.html": "Cara Membaca Slip Gaji di Jepang | Japan Life Explained",
+    "/japan-life-explained/id/articles/health-insurance.html": "Asuransi Kesehatan di Jepang: Hal yang Perlu Diketahui Penduduk Baru | Japan Life Explained",
+    "/japan-life-explained/id/articles/clinic.html": "Cara Berobat ke Klinik di Jepang | Japan Life Explained",
+    "/japan-life-explained/id/articles/move-in-costs.html": "Biaya Awal Sewa Rumah di Jepang: Reikin, Deposit, dan Biaya Lain | Japan Life Explained",
+    "/japan-life-explained/id/articles/changing-jobs-residence-procedures.html": "Pindah Kerja di Jepang: Prosedur Status Tinggal yang Perlu Diperiksa | Japan Life Explained",
+    "/japan-life-explained/languages.html": "English · Tiếng Việt · 简体中文 · မြန်မာ · नेपाली · Bahasa Indonesia | Japan Life Explained",
+    "/japan-life-explained/ne/index.html": "नेपालीमा मार्गदर्शिका | Japan Life Explained",
+    "/japan-life-explained/id/index.html": "Panduan dalam bahasa Indonesia | Japan Life Explained"
   },
   "campaigns": {
     "suzume_jle_01": {
@@ -114,6 +127,62 @@ window.SuzumeAnalyticsConfig = {
     "suzume_jle_02_leaving_en": {
       "source": "x",
       "medium": "social"
+    },
+    "jle_phase1_202610_print_card": {
+      "source": "print_card",
+      "medium": "qr"
+    },
+    "jle_phase1_202610_phone_card": {
+      "source": "phone_card",
+      "medium": "qr"
+    },
+    "jle_phase1_202610_facebook": {
+      "source": "facebook",
+      "medium": "social"
+    },
+    "jle_phase1_202610_x": {
+      "source": "x",
+      "medium": "social"
+    },
+    "jle_phase1_202610_note": {
+      "source": "note",
+      "medium": "referral"
+    },
+    "jle_phase1_202610_school": {
+      "source": "school",
+      "medium": "referral"
     }
-  }
+  },
+  "campaignTuples": [
+    {
+      "name": "jle_phase1_202610",
+      "source": "print_card",
+      "medium": "qr"
+    },
+    {
+      "name": "jle_phase1_202610",
+      "source": "phone_card",
+      "medium": "qr"
+    },
+    {
+      "name": "jle_phase1_202610",
+      "source": "facebook",
+      "medium": "social"
+    },
+    {
+      "name": "jle_phase1_202610",
+      "source": "x",
+      "medium": "social"
+    },
+    {
+      "name": "jle_phase1_202610",
+      "source": "note",
+      "medium": "referral"
+    },
+    {
+      "name": "jle_phase1_202610",
+      "source": "school",
+      "medium": "referral"
+    }
+  ]
 };

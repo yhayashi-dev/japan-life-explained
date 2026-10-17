@@ -1,0 +1,5 @@
+html[lang="ne"] body{font-family:"Noto Sans Devanagari","Devanagari Sangam MN","Kohinoor Devanagari",sans-serif;line-height:1.85}
+html[lang="ne"] h1,html[lang="ne"] h2,html[lang="ne"] h3{line-height:1.55}
+.locale-language-choice{flex-wrap:wrap}
+.article p,.article li,.article-card,.search-result-card{overflow-wrap:anywhere}
+html[lang="ne"] .article table,html[lang="id"] .article table{display:block;max-width:100%;overflow-x:auto}
