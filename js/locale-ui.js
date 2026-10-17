@@ -1,6 +1,12 @@
 /* Native-language search and browser-local email drafts. No automatic submissions. */
 (() => {
   'use strict';
+  // Presentation-only link: keep the existing consent collector/config unchanged.
+  const privacyLocale = {'vi':'vi', 'zh-hans':'zh-hans'}[document.documentElement.lang.toLowerCase()];
+  const consentPrivacy = document.querySelector('#su-analytics-panel a');
+  if (privacyLocale && consentPrivacy && location.pathname.startsWith('/japan-life-explained/')) {
+    consentPrivacy.href = new URL('/japan-life-explained/' + privacyLocale + '/privacy.html', location.origin).href;
+  }
   const node = document.getElementById('locale-config');
   if (!node) return;
   const config = JSON.parse(node.textContent), ui = config.ui;
