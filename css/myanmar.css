@@ -1,0 +1,9 @@
+/* Local system fonts only: Myanmar Unicode. No remote font requests. */
+:lang(my){font-family:"Noto Sans Myanmar","Myanmar Text","Myanmar Sangam MN","Myanmar MN",-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;letter-spacing:normal;line-height:1.85}
+h1:lang(my){font-size:clamp(28px,5vw,46px);line-height:1.75;letter-spacing:normal;font-weight:700}
+h2:lang(my),h3:lang(my){line-height:1.8;letter-spacing:normal;font-weight:700}
+:lang(my) p,:lang(my) li,:lang(my) td,:lang(my) th{line-height:1.9;overflow-wrap:anywhere;word-break:normal}
+:lang(my) .diagram-box,:lang(my) .dbox{min-width:0;line-height:1.85;overflow-wrap:anywhere}
+:lang(my) .badge,:lang(my) .tag,:lang(my) .article-meta{line-height:1.9}
+:lang(my) td,:lang(my) th{vertical-align:top}
+.search-result-card:lang(my) h3{line-height:1.8;letter-spacing:normal}

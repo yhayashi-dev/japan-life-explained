@@ -12,7 +12,7 @@
 </style>
 <script defer src="/japan-life-explained/analytics-config.js"></script>
 <script defer src="/japan-life-explained/analytics.js"></script>
-</head>
+<link rel="stylesheet" href="css/myanmar.css"></head>
 <body>
 <header>
 <nav class="nav">
@@ -73,21 +73,26 @@ Simple guides for working and living in Japan.
 <div class="footer-links"><a href="privacy.html">Privacy Policy</a></div><div class="wrap"><p><a href="https://yhayashi-dev.github.io/kurashi-seido-portal/">Related guides: Kurashi to Seido (Japanese)</a></p></div>
 </footer>
 
+<p class="muted" id="my-search-coverage"><span lang="my">မြန်မာ Unicode စာသားဖြင့် လမ်းညွှန် ၅ ပုဒ်ကို ရှာနိုင်သည်။</span> Myanmar: 5 guides; Unicode search. <a href="index.html#myanmar-guides" lang="my">မြန်မာ</a>.</p>
 <script>
 const results = document.getElementById('search-results');
 const input = document.getElementById('site-search');
 let searchIndex = [];
+
+function normalizeSearch(value) {
+  return String(value).normalize('NFC').replace(/\u200B/g, '').toLowerCase().replace(/\s+/g, ' ').trim();
+}
 
 function escapeHtml(str) {
   return String(str).replace(/[&<>"']/g, s => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[s]));
 }
 
 function scorePage(page, terms, query) {
-  const title = page.title.toLowerCase();
-  const summary = page.summary.toLowerCase();
-  const keywords = page.keywords.toLowerCase();
+  const title = normalizeSearch(page.title);
+  const summary = normalizeSearch(page.summary);
+  const keywords = normalizeSearch(page.keywords);
   // Prefer a small, curated set of exact situation phrases; keep keyword scoring unchanged.
-  const exactPhrase = (page.search_phrases || []).some(phrase => phrase.toLowerCase() === query);
+  const exactPhrase = (page.search_phrases || []).some(phrase => normalizeSearch(phrase) === query);
   let score = exactPhrase ? 100 : 0;
   for (const term of terms) {
     if (title.includes(term)) score += 8;
@@ -98,7 +103,7 @@ function scorePage(page, terms, query) {
 }
 
 function render(query) {
-  const q = query.trim().toLowerCase().replace(/\s+/g, ' ');
+  const q = normalizeSearch(query);
   if (!q) {
     results.innerHTML = '<p class="muted">Type a keyword to search.</p>';
     return;
@@ -116,7 +121,7 @@ function render(query) {
   }
 
   results.innerHTML = matched.map(page => `
-    <a class="search-result-card" href="${escapeHtml(page.url)}">
+    <a class="search-result-card" href="${escapeHtml(page.url)}"${page.language === 'my' ? ' lang="my"' : ''}>
       <span class="badge">${escapeHtml(page.category)}</span>
       <h3>${escapeHtml(page.title)}</h3>
       <p>${escapeHtml(page.summary)}</p>

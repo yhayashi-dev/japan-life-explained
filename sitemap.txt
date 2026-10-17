@@ -67,3 +67,8 @@ https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/pension-wor
 https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/resident-tax.html
 https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/take-home-pay.html
 https://yhayashi-dev.github.io/japan-life-explained/zh-hans/articles/year-end-adjustment-tax-return.html
+https://yhayashi-dev.github.io/japan-life-explained/my/articles/payslip.html
+https://yhayashi-dev.github.io/japan-life-explained/my/articles/health-insurance.html
+https://yhayashi-dev.github.io/japan-life-explained/my/articles/clinic.html
+https://yhayashi-dev.github.io/japan-life-explained/my/articles/address-registration.html
+https://yhayashi-dev.github.io/japan-life-explained/my/articles/bank-phone-loop.html
