@@ -184,3 +184,17 @@ https://yhayashi-dev.github.io/japan-life-explained/ur/articles/bank-phone-loop.
 https://yhayashi-dev.github.io/japan-life-explained/ur/articles/clinic.html
 https://yhayashi-dev.github.io/japan-life-explained/ur/articles/address-registration.html
 https://yhayashi-dev.github.io/japan-life-explained/ur/articles/health-insurance.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/official-resources.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/index.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/about.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/disclaimer.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/request-topic.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/search.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/faq.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/privacy.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/sources.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/articles/payslip.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/articles/bank-phone-loop.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/articles/clinic.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/articles/address-registration.html
+https://yhayashi-dev.github.io/japan-life-explained/fil/articles/health-insurance.html
