@@ -103,7 +103,13 @@ window.SuzumeAnalyticsConfig = {
     "/japan-life-explained/bn/articles/health-insurance.html": "জাপানে স্বাস্থ্যবিমা: নতুন বাসিন্দাদের যা জানা দরকার | Japan Life Explained",
     "/japan-life-explained/bn/articles/payslip.html": "জাপানের বেতনের হিসাবপত্র পড়বেন যেভাবে | Japan Life Explained",
     "/japan-life-explained/bn/articles/clinic.html": "জাপানে ক্লিনিকে যাবেন যেভাবে | Japan Life Explained",
-    "/japan-life-explained/bn/index.html": "বাংলা নির্দেশিকা | Japan Life Explained"
+    "/japan-life-explained/bn/index.html": "বাংলা নির্দেশিকা | Japan Life Explained",
+    "/japan-life-explained/si/articles/address-registration.html": "ජපානයේ ඔබේ ලිපිනය ලියාපදිංචි කරන්නේ කෙසේද? | Japan Life Explained",
+    "/japan-life-explained/si/articles/bank-phone-loop.html": "ජපානයේ බැංකු ගිණුම හා දුරකථන අංකය අතර චක්‍රය | Japan Life Explained",
+    "/japan-life-explained/si/articles/health-insurance.html": "ජපානයේ සෞඛ්‍ය රක්ෂණය: නව පදිංචිකරුවන් දැනගත යුතු දේ | Japan Life Explained",
+    "/japan-life-explained/si/articles/payslip.html": "ජපාන වැටුප් විස්තර පත්‍රයක් කියවන්නේ කෙසේද? | Japan Life Explained",
+    "/japan-life-explained/si/articles/clinic.html": "ජපානයේ සායනයකට යන්නේ කෙසේද? | Japan Life Explained",
+    "/japan-life-explained/si/index.html": "සිංහල මාර්ගෝපදේශ | Japan Life Explained"
   },
   "campaigns": {
     "suzume_jle_01": {
