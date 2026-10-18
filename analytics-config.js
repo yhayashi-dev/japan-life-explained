@@ -127,7 +127,13 @@ window.SuzumeAnalyticsConfig = {
     "/japan-life-explained/fil/articles/health-insurance.html": "Health Insurance sa Japan: Dapat Malaman ng Bagong Residente | Japan Life Explained",
     "/japan-life-explained/fil/articles/payslip.html": "Paano Basahin ang Payslip sa Japan | Japan Life Explained",
     "/japan-life-explained/fil/articles/clinic.html": "Paano Bumisita sa Klinika sa Japan | Japan Life Explained",
-    "/japan-life-explained/fil/index.html": "Mga gabay sa Filipino | Japan Life Explained"
+    "/japan-life-explained/fil/index.html": "Mga gabay sa Filipino | Japan Life Explained",
+    "/japan-life-explained/km/articles/address-registration.html": "របៀបចុះបញ្ជីអាសយដ្ឋាននៅជប៉ុន | Japan Life Explained",
+    "/japan-life-explained/km/articles/bank-phone-loop.html": "បញ្ហាវិលជុំរវាងធនាគារ និងទូរសព្ទនៅជប៉ុន | Japan Life Explained",
+    "/japan-life-explained/km/articles/health-insurance.html": "ធានារ៉ាប់រងសុខភាពនៅជប៉ុន៖ អ្វីដែលអ្នកមករស់នៅថ្មីគួរដឹង | Japan Life Explained",
+    "/japan-life-explained/km/articles/payslip.html": "របៀបអានប័ណ្ណប្រាក់ខែជប៉ុន | Japan Life Explained",
+    "/japan-life-explained/km/articles/clinic.html": "របៀបទៅគ្លីនិកនៅជប៉ុន | Japan Life Explained",
+    "/japan-life-explained/km/index.html": "មគ្គុទ្ទេសក៍ជាភាសាខ្មែរ | Japan Life Explained"
   },
   "campaigns": {
     "suzume_jle_01": {
