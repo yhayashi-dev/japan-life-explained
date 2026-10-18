@@ -11,7 +11,7 @@
   function decorate() {
     document.querySelectorAll('a[href]').forEach(a => {
       const dest = new URL(a.getAttribute('href'), location.href);
-      if (dest.origin !== config.origin || dest.hash || dest.search || !Object.hasOwn(config.pages, dest.pathname) || !/^\/japan-life-explained\/(?:languages\.html|(?:ne|id)\/(?:index\.html|articles\/[a-z0-9-]+\.html))$/.test(dest.pathname)) return;
+      if (dest.origin !== config.origin || dest.hash || dest.search || !Object.hasOwn(config.pages, dest.pathname) || !/^\/japan-life-explained\/(?:languages\.html|(?:ne|id|bn|si|th|ur|fil|km)\/(?:index\.html|articles\/[a-z0-9-]+\.html))$/.test(dest.pathname)) return;
       dest.searchParams.set('utm_source', tuple.source);dest.searchParams.set('utm_medium', tuple.medium);dest.searchParams.set('utm_campaign', tuple.name);
       a.href = dest.href;
     });

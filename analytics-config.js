@@ -97,7 +97,13 @@ window.SuzumeAnalyticsConfig = {
     "/japan-life-explained/id/articles/changing-jobs-residence-procedures.html": "Pindah Kerja di Jepang: Prosedur Status Tinggal yang Perlu Diperiksa | Japan Life Explained",
     "/japan-life-explained/languages.html": "English · Tiếng Việt · 简体中文 · မြန်မာ · नेपाली · Bahasa Indonesia | Japan Life Explained",
     "/japan-life-explained/ne/index.html": "नेपालीमा मार्गदर्शिका | Japan Life Explained",
-    "/japan-life-explained/id/index.html": "Panduan dalam bahasa Indonesia | Japan Life Explained"
+    "/japan-life-explained/id/index.html": "Panduan dalam bahasa Indonesia | Japan Life Explained",
+    "/japan-life-explained/bn/articles/address-registration.html": "জাপানে ঠিকানা নিবন্ধন করবেন যেভাবে | Japan Life Explained",
+    "/japan-life-explained/bn/articles/bank-phone-loop.html": "জাপানে ব্যাংক ও ফোনের পরস্পরনির্ভরতার সমস্যা | Japan Life Explained",
+    "/japan-life-explained/bn/articles/health-insurance.html": "জাপানে স্বাস্থ্যবিমা: নতুন বাসিন্দাদের যা জানা দরকার | Japan Life Explained",
+    "/japan-life-explained/bn/articles/payslip.html": "জাপানের বেতনের হিসাবপত্র পড়বেন যেভাবে | Japan Life Explained",
+    "/japan-life-explained/bn/articles/clinic.html": "জাপানে ক্লিনিকে যাবেন যেভাবে | Japan Life Explained",
+    "/japan-life-explained/bn/index.html": "বাংলা নির্দেশিকা | Japan Life Explained"
   },
   "campaigns": {
     "suzume_jle_01": {

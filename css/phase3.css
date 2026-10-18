@@ -1,0 +1,12 @@
+html[lang="bn"] body{font-family:"Kohinoor Bangla","Noto Sans Bengali",sans-serif;line-height:1.9}
+html[lang="si"] body{font-family:"Sinhala Sangam MN","Noto Sans Sinhala",sans-serif;line-height:1.9}
+html[lang="th"] body{font-family:"Thonburi","Noto Sans Thai",sans-serif;line-height:1.85}
+html[lang="ur"] body{font-family:"Noto Nastaliq Urdu","Geeza Pro",serif;line-height:2.4}
+html[lang="km"] body{font-family:"Khmer Sangam MN","Noto Sans Khmer",sans-serif;line-height:1.9}
+html[lang="ur"] .nav,html[lang="ur"] .locale-language-choice{direction:rtl}
+html[lang="ur"] h1,html[lang="ur"] h2,html[lang="ur"] h3{line-height:2}
+html[lang="ur"] [lang="ja"],html[lang="ur"] [lang="en"],html[lang="ur"] [dir="ltr"]{unicode-bidi:isolate;direction:ltr}
+html[lang="ur"] input[type="email"],html[lang="ur"] a[href^="mailto:"]{direction:ltr;unicode-bidi:isolate}
+.article p,.article li,.article-card,.search-result-card{overflow-wrap:anywhere}
+.article table{display:block;max-width:100%;overflow-x:auto}
+.locale-language-choice{flex-wrap:wrap}

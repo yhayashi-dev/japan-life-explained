@@ -48,13 +48,14 @@
   const texts = {
     ne:["विश्लेषणका सेटिङ", "तपाईंले सहमति दिएपछि मात्र Google Analytics ले पृष्ठ, समय, आगमन स्रोत, उपकरणसम्बन्धी जानकारी र छद्मनामयुक्त कुकीमार्फत मापन गर्छ। पठाउने क्रममा Google ले तपाईंको IP ठेगाना पनि पाउँछ। तपाईंले भरेको विवरण, सुरक्षित गरिएको खेलको डेटा वा सन्देश पठाइँदैन। विश्लेषण अस्वीकार गरेर पनि यो वेबसाइट प्रयोग गर्न सक्नुहुन्छ। मुख्यभूमि चीन वा Google उपलब्ध नभएका अन्य ठाउँबाट आएका भ्रमण अभिलेख नहुन सक्छन्।", "विश्लेषण गर्न अनुमति दिनुहोस्", "मापन नगर्नुहोस्", "गोपनीयता"],
     id:["Pengaturan analitik", "Hanya dengan persetujuan Anda, Google Analytics mengukur halaman, waktu, sumber kunjungan, informasi perangkat, dan kuki dengan pengenal samaran. Google juga menerima alamat IP Anda saat pengiriman. Kami tidak mengirim isian, data permainan tersimpan, atau pesan Anda. Situs dapat digunakan tanpa analitik. Kunjungan dari Tiongkok daratan atau tempat lain yang tidak dapat mengakses Google mungkin tidak tercatat.", "Izinkan analitik", "Jangan ukur", "Privasi"],
+    bn:["পরিসংখ্যানের সেটিংস", "শুধু আপনার সম্মতিতে Google Analytics পাতা, সময়, ভিজিটের উৎস, ডিভাইসের তথ্য ও ছদ্মনামযুক্ত শনাক্তকারীর কুকি মাপে। পাঠানোর সময় Google আপনার IP ঠিকানাও পায়। আমরা ফর্মের লেখা, সংরক্ষিত গেমের তথ্য বা আপনার বার্তা পাঠাই না। পরিসংখ্যান ছাড়াও সাইট ব্যবহার করা যায়। চীনের মূল ভূখণ্ড বা Google ব্যবহার করা যায় না এমন অন্য স্থান থেকে ভিজিট নথিভুক্ত নাও হতে পারে।", "পরিসংখ্যানের অনুমতি দিন", "মাপবেন না", "গোপনীয়তা"],
     ja:['アクセス解析の設定','同意した場合のみGoogle Analyticsを使い、閲覧ページ・時刻・流入元・端末情報・仮名Cookieを計測します。通信時にはIPもGoogleへ届きます。入力内容・所持情報・問い合わせ内容は送りません。拒否しても利用できます。中国本土などGoogleに接続できない地域の来訪は捕捉できない場合があります。','同意して計測する','計測しない','プライバシー'],
     en:['Analytics settings','Only with your consent, Google Analytics measures pages, times, sources, device information and pseudonymous cookies. Google also receives your IP in transit. We do not send your inputs, saved game data or messages. You can use this site without analytics. Visits from mainland China or other places where Google is unavailable may not be captured.','Allow analytics','Do not measure','Privacy'],
     vi:['Cài đặt đo lường','Chỉ khi bạn đồng ý, Google Analytics đo trang, thời gian, nguồn truy cập, thiết bị và cookie định danh giả. Google nhận IP khi kết nối. Không gửi nội dung nhập, dữ liệu trò chơi hay tin nhắn. Bạn vẫn dùng được trang khi từ chối.','Đồng ý đo lường','Không đo lường','Quyền riêng tư'],
     zh:['访问统计设置','仅在您同意后使用 Google Analytics，统计页面、时间、来源、设备信息和假名标识 Cookie。通信时 Google 也会接收 IP。不会发送您输入的内容、游戏持有数据或咨询正文。拒绝不影响使用。中国大陆等无法连接 Google 的地区可能无法统计，未记录不代表无人访问。','同意统计','不进行统计','隐私说明']
   };
   const language = document.documentElement.lang.toLowerCase();
-  const t = texts[language === 'ne' ? 'ne' : language === 'id' ? 'id' : language.startsWith('vi')?'vi':language.startsWith('zh')?'zh':language.startsWith('en')?'en':'ja'];
+  const t = texts[language === 'bn' ? 'bn' : language === 'ne' ? 'ne' : language === 'id' ? 'id' : language.startsWith('vi')?'vi':language.startsWith('zh')?'zh':language.startsWith('en')?'en':'ja'];
   let root, panel;
   function render() {
     if (root) return;
@@ -65,7 +66,7 @@
     panel=document.createElement('section');panel.id='su-analytics-panel';panel.setAttribute('aria-label',t[0]);
     const text=document.createElement('p');text.textContent=t[1];panel.append(text);
     const privacy=document.createElement('a');privacy.textContent=t[4];
-    const privacyURL=new URL(c.privacyUrl,c.origin);if(privacyURL.origin!==c.origin) return;privacy.href=["ne","id"].includes(language)?c.origin+c.basePath+language+"/privacy.html":privacyURL.href;panel.append(privacy);
+    const privacyURL=new URL(c.privacyUrl,c.origin);if(privacyURL.origin!==c.origin) return;privacy.href=["ne", "id", "bn"].includes(language)?c.origin+c.basePath+language+"/privacy.html":privacyURL.href;panel.append(privacy);
     for(const [name,label,fn] of [['accept',t[2],allow],['decline',t[3],decline]]){const b=document.createElement('button');b.type='button';b.id='su-analytics-'+name;b.textContent=label;b.addEventListener('click',fn);panel.append(b);}
     root.append(panel);const settings=document.createElement('button');settings.type='button';settings.id='su-analytics-settings';settings.textContent=t[0];settings.addEventListener('click',()=>{panel.hidden=false;});root.append(settings);document.body.append(root);
   }
