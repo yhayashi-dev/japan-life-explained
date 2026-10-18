@@ -12,3 +12,5 @@ html[lang="ur"] input[type="email"],html[lang="ur"] a[href^="mailto:"]{direction
 .locale-language-choice{flex-wrap:wrap}
 /* In an RTL flex sequence the first box is on the right; arrows point left. */
 html[lang="ur"] .diagram-arrow{transform:scaleX(-1)}
+
+html[lang="ur"] h1{font-size:clamp(28px,4vw,42px);letter-spacing:normal;padding-inline:4px}
