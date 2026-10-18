@@ -10,3 +10,5 @@ html[lang="ur"] input[type="email"],html[lang="ur"] a[href^="mailto:"]{direction
 .article p,.article li,.article-card,.search-result-card{overflow-wrap:anywhere}
 .article table{display:block;max-width:100%;overflow-x:auto}
 .locale-language-choice{flex-wrap:wrap}
+/* In an RTL flex sequence the first box is on the right; arrows point left. */
+html[lang="ur"] .diagram-arrow{transform:scaleX(-1)}

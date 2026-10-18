@@ -115,7 +115,13 @@ window.SuzumeAnalyticsConfig = {
     "/japan-life-explained/th/articles/health-insurance.html": "ประกันสุขภาพในญี่ปุ่น: สิ่งที่ผู้ย้ายมาใหม่ควรรู้ | Japan Life Explained",
     "/japan-life-explained/th/articles/payslip.html": "วิธีอ่านสลิปเงินเดือนญี่ปุ่น | Japan Life Explained",
     "/japan-life-explained/th/articles/clinic.html": "วิธีไปคลินิกในญี่ปุ่น | Japan Life Explained",
-    "/japan-life-explained/th/index.html": "คู่มือภาษาไทย | Japan Life Explained"
+    "/japan-life-explained/th/index.html": "คู่มือภาษาไทย | Japan Life Explained",
+    "/japan-life-explained/ur/articles/address-registration.html": "جاپان میں اپنا پتہ کیسے درج کرائیں | Japan Life Explained",
+    "/japan-life-explained/ur/articles/bank-phone-loop.html": "جاپان میں بینک اور فون کا چکر | Japan Life Explained",
+    "/japan-life-explained/ur/articles/health-insurance.html": "جاپان میں صحت بیمہ: نئے رہائشیوں کے لیے ضروری باتیں | Japan Life Explained",
+    "/japan-life-explained/ur/articles/payslip.html": "جاپانی تنخواہ پرچی کیسے پڑھیں | Japan Life Explained",
+    "/japan-life-explained/ur/articles/clinic.html": "جاپان میں کلینک کیسے جائیں | Japan Life Explained",
+    "/japan-life-explained/ur/index.html": "اردو میں رہنما تحریریں | Japan Life Explained"
   },
   "campaigns": {
     "suzume_jle_01": {
