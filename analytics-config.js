@@ -14,15 +14,15 @@ window.SuzumeAnalyticsConfig = {
     "/japan-life-explained/articles/disaster-evacuation-information.html": "Disaster and Evacuation Information in Japan | Japan Life Explained",
     "/japan-life-explained/articles/garbage-disposal.html": "Garbage in Japan: Find the Rules for Your Address | Japan Life Explained",
     "/japan-life-explained/articles/guarantor-company.html": "Guarantor Companies in Japan: What Renters Should Know | Japan Life Explained",
-    "/japan-life-explained/articles/health-insurance-after-job.html": "Health insurance after leaving a job | Japan Life Explained",
+    "/japan-life-explained/articles/health-insurance-after-job.html": "Health Insurance After Leaving a Job in Japan | Japan Life Explained",
     "/japan-life-explained/articles/health-insurance.html": "Health Insurance in Japan: What New Residents Should Know | Japan Life Explained",
     "/japan-life-explained/articles/leaving-japan-checklist.html": "Leaving Japan: What to Check Before You Go | Japan Life Explained",
-    "/japan-life-explained/articles/lost-job-first-steps.html": "I lost my job: what to do first | Japan Life Explained",
-    "/japan-life-explained/articles/lost-residence-card.html": "Lost or Damaged Residence Card: First Steps | Japan Life Explained",
+    "/japan-life-explained/articles/lost-job-first-steps.html": "Lost Your Job in Japan? What to Do First | Japan Life Explained",
+    "/japan-life-explained/articles/lost-residence-card.html": "Lost or Damaged Residence Card in Japan: First Steps | Japan Life Explained",
     "/japan-life-explained/articles/mail-forwarding-redelivery.html": "Mail in Japan: Forwarding and Missed Deliveries | Japan Life Explained",
     "/japan-life-explained/articles/move-in-costs.html": "Move-in Costs in Japan: Key Money, Deposit, and Fees | Japan Life Explained",
     "/japan-life-explained/articles/payslip.html": "How to Read a Japanese Payslip | Japan Life Explained",
-    "/japan-life-explained/articles/pension-work-changes.html": "Pension when your work situation changes | Japan Life Explained",
+    "/japan-life-explained/articles/pension-work-changes.html": "Pension in Japan When Your Work Situation Changes | Japan Life Explained",
     "/japan-life-explained/articles/resident-tax.html": "Resident Tax in Japan: Bills and Payslip Deductions | Japan Life Explained",
     "/japan-life-explained/articles/starting-utilities.html": "Starting Electricity, Gas and Water in Japan | Japan Life Explained",
     "/japan-life-explained/articles/take-home-pay.html": "Why Is My Take-home Pay Lower Than My Salary in Japan? | Japan Life Explained",
@@ -133,7 +133,12 @@ window.SuzumeAnalyticsConfig = {
     "/japan-life-explained/km/articles/health-insurance.html": "ធានារ៉ាប់រងសុខភាពនៅជប៉ុន៖ អ្វីដែលអ្នកមករស់នៅថ្មីគួរដឹង | Japan Life Explained",
     "/japan-life-explained/km/articles/payslip.html": "របៀបអានប័ណ្ណប្រាក់ខែជប៉ុន | Japan Life Explained",
     "/japan-life-explained/km/articles/clinic.html": "របៀបទៅគ្លីនិកនៅជប៉ុន | Japan Life Explained",
-    "/japan-life-explained/km/index.html": "មគ្គុទ្ទេសក៍ជាភាសាខ្មែរ | Japan Life Explained"
+    "/japan-life-explained/km/index.html": "មគ្គុទ្ទេសក៍ជាភាសាខ្មែរ | Japan Life Explained",
+    "/japan-life-explained/my/articles/address-registration.html": "ဂျပန်တွင် လိပ်စာမှတ်ပုံတင်နည်း | Japan Life Explained",
+    "/japan-life-explained/my/articles/bank-phone-loop.html": "ဂျပန်တွင် ဘဏ်အကောင့်နှင့် ဖုန်းနံပါတ် အပြန်အလှန်လိုအပ်နေသောအခက်အခဲ | Japan Life Explained",
+    "/japan-life-explained/my/articles/clinic.html": "ဂျပန်တွင် ဆေးခန်းသွားပြနည်း | Japan Life Explained",
+    "/japan-life-explained/my/articles/health-insurance.html": "ဂျပန်နိုင်ငံ၏ ကျန်းမာရေးအာမခံ: နေထိုင်သူအသစ်များ သိထားသင့်သည့်အချက်များ | Japan Life Explained",
+    "/japan-life-explained/my/articles/payslip.html": "ဂျပန်လစာရှင်းတမ်းကို ဖတ်ရှုနည်း | Japan Life Explained"
   },
   "campaigns": {
     "suzume_jle_01": {

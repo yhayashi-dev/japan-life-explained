@@ -46,6 +46,7 @@
     return {bucket:'external_other', referrer:''};
   }
   const texts = {
+    my:["စာရင်းအင်းဆက်တင်များ", "သင်သဘောတူမှသာ Google Analytics က ကြည့်ရှုသောစာမျက်နှာ၊ အချိန်၊ ဝင်ရောက်လာရာရင်းမြစ်၊ ကိရိယာအချက်အလက်နှင့် အမည်ရင်းအစား အမှတ်အသားသုံးထားသော ကွတ်ကီးများဖြင့် တိုင်းတာပါသည်။ ဒေတာပေးပို့စဉ် Google က သင့် IP လိပ်စာကိုလည်း လက်ခံရရှိပါသည်။ သင်ဖြည့်သွင်းထားသော အကြောင်းအရာ၊ သိမ်းဆည်းထားသော ဂိမ်းဒေတာ သို့မဟုတ် သင့်စာများကို ကျွန်ုပ်တို့ မပို့ပါ။ စာရင်းအင်းတိုင်းတာမှုကို ခွင့်မပြုဘဲလည်း ဤဆိုက်ကို အသုံးပြုနိုင်ပါသည်။ တရုတ်ပြည်မကြီး သို့မဟုတ် Google မရနိုင်သော အခြားနေရာများမှ ဝင်ကြည့်မှုများကို မှတ်တမ်းမရနိုင်ပါ။", "စာရင်းအင်းတိုင်းတာမှုကို ခွင့်ပြုရန်", "တိုင်းတာခြင်း မပြုရန်", "ကိုယ်ရေးအချက်အလက်ဆိုင်ရာ မူဝါဒ"],
     ne:["विश्लेषणका सेटिङ", "तपाईंले सहमति दिएपछि मात्र Google Analytics ले पृष्ठ, समय, आगमन स्रोत, उपकरणसम्बन्धी जानकारी र छद्मनामयुक्त कुकीमार्फत मापन गर्छ। पठाउने क्रममा Google ले तपाईंको IP ठेगाना पनि पाउँछ। तपाईंले भरेको विवरण, सुरक्षित गरिएको खेलको डेटा वा सन्देश पठाइँदैन। विश्लेषण अस्वीकार गरेर पनि यो वेबसाइट प्रयोग गर्न सक्नुहुन्छ। मुख्यभूमि चीन वा Google उपलब्ध नभएका अन्य ठाउँबाट आएका भ्रमण अभिलेख नहुन सक्छन्।", "विश्लेषण गर्न अनुमति दिनुहोस्", "मापन नगर्नुहोस्", "गोपनीयता"],
     id:["Pengaturan analitik", "Hanya dengan persetujuan Anda, Google Analytics mengukur halaman, waktu, sumber kunjungan, informasi perangkat, dan kuki dengan pengenal samaran. Google juga menerima alamat IP Anda saat pengiriman. Kami tidak mengirim isian, data permainan tersimpan, atau pesan Anda. Situs dapat digunakan tanpa analitik. Kunjungan dari Tiongkok daratan atau tempat lain yang tidak dapat mengakses Google mungkin tidak tercatat.", "Izinkan analitik", "Jangan ukur", "Privasi"],
     bn:["পরিসংখ্যানের সেটিংস", "শুধু আপনার সম্মতিতে Google Analytics পাতা, সময়, ভিজিটের উৎস, ডিভাইসের তথ্য ও ছদ্মনামযুক্ত শনাক্তকারীর কুকি মাপে। পাঠানোর সময় Google আপনার IP ঠিকানাও পায়। আমরা ফর্মের লেখা, সংরক্ষিত গেমের তথ্য বা আপনার বার্তা পাঠাই না। পরিসংখ্যান ছাড়াও সাইট ব্যবহার করা যায়। চীনের মূল ভূখণ্ড বা Google ব্যবহার করা যায় না এমন অন্য স্থান থেকে ভিজিট নথিভুক্ত নাও হতে পারে।", "পরিসংখ্যানের অনুমতি দিন", "মাপবেন না", "গোপনীয়তা"],
@@ -60,7 +61,7 @@
     zh:['访问统计设置','仅在您同意后使用 Google Analytics，统计页面、时间、来源、设备信息和假名标识 Cookie。通信时 Google 也会接收 IP。不会发送您输入的内容、游戏持有数据或咨询正文。拒绝不影响使用。中国大陆等无法连接 Google 的地区可能无法统计，未记录不代表无人访问。','同意统计','不进行统计','隐私说明']
   };
   const language = document.documentElement.lang.toLowerCase();
-  const t = texts[language === 'km' ? 'km' : language === 'fil' ? 'fil' : language === 'ur' ? 'ur' : language === 'th' ? 'th' : language === 'si' ? 'si' : language === 'bn' ? 'bn' : language === 'ne' ? 'ne' : language === 'id' ? 'id' : language.startsWith('vi')?'vi':language.startsWith('zh')?'zh':language.startsWith('en')?'en':'ja'];
+  const t = texts[language === 'my' ? 'my' : language === 'km' ? 'km' : language === 'fil' ? 'fil' : language === 'ur' ? 'ur' : language === 'th' ? 'th' : language === 'si' ? 'si' : language === 'bn' ? 'bn' : language === 'ne' ? 'ne' : language === 'id' ? 'id' : language.startsWith('vi')?'vi':language.startsWith('zh')?'zh':language.startsWith('en')?'en':'ja'];
   let root, panel;
   function render() {
     if (root) return;
@@ -71,7 +72,7 @@
     panel=document.createElement('section');panel.id='su-analytics-panel';panel.setAttribute('aria-label',t[0]);
     const text=document.createElement('p');text.textContent=t[1];panel.append(text);
     const privacy=document.createElement('a');privacy.textContent=t[4];
-    const privacyURL=new URL(c.privacyUrl,c.origin);if(privacyURL.origin!==c.origin) return;privacy.href=["ne", "id", "bn", "si", "th", "ur", "fil", "km"].includes(language)?c.origin+c.basePath+language+"/privacy.html":privacyURL.href;panel.append(privacy);
+    const privacyURL=new URL(c.privacyUrl,c.origin);if(privacyURL.origin!==c.origin) return;privacy.href=["my", "ne", "id", "bn", "si", "th", "ur", "fil", "km"].includes(language)?c.origin+c.basePath+language+"/privacy.html":privacyURL.href;panel.append(privacy);
     for(const [name,label,fn] of [['accept',t[2],allow],['decline',t[3],decline]]){const b=document.createElement('button');b.type='button';b.id='su-analytics-'+name;b.textContent=label;b.addEventListener('click',fn);panel.append(b);}
     root.append(panel);const settings=document.createElement('button');settings.type='button';settings.id='su-analytics-settings';settings.textContent=t[0];settings.addEventListener('click',()=>{panel.hidden=false;});root.append(settings);document.body.append(root);
   }
